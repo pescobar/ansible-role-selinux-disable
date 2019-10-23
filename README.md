@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/pescobar/ansible-role-selinux-disable.svg?branch=master)](https://travis-ci.org/pescobar/ansible-role-selinux-disable)
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-pescobar.selinux-disable-blue.svg)](https://galaxy.ansible.com/pescobar/selinux-disable)
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-pescobar.selinux_disable-blue.svg)](https://galaxy.ansible.com/pescobar/selinux_disable)
 
 ansible-role-selinux-disable
 =========
