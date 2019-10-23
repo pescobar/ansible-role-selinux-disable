@@ -7,7 +7,7 @@ lint:
   name: yamllint
 platforms:
   - name: centos7-docker
-    image: mplachter/docker-centos7-molecule
+    image: centos:centos7
     command: /usr/sbin/init
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
