@@ -4,7 +4,7 @@
 - name: Ensure that the selinux packages are installed
   yum:
     name:
-      - libselinux-python
+      - "{{ ( (ansible_facts.distribution_major_version | int) < 8) | ternary('libselinux-python','python3-libselinux') }}"
       - selinux-policy
     state: present
 
