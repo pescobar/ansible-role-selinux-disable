@@ -17,5 +17,5 @@
   reboot:
     reboot_timeout: "{{ selinux_disable_reboot_timeout }}"
   when:
-    - _selinux_module is changed
+    - _selinux_module.changed
     - selinux_disable_reboot
