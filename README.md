@@ -6,14 +6,14 @@ pescobar.selinux_disable
 
 Very simple role to disable selinux and reboot the machine.
 
-By default the machine is **not** rebooted unless you define `selinux_reboot: true`
+By default the machine is **not** rebooted unless you define `selinux_disable_reboot: true`
 
 Role Variables
 --------------
 
 ```
-selinux_reboot: false
-selinux_reboot_timeout: 600
+selinux_disable_reboot: false
+selinux_disable_reboot_timeout: 600
 ```
 
 Example Playbook

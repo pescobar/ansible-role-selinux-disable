@@ -1,5 +1,5 @@
 ---
 # defaults file for ansible-role-selinux-disable
 
-selinux_reboot: false
-selinux_reboot_timeout: 600
+selinux_disable_reboot: false
+selinux_disable_reboot_timeout: 600
